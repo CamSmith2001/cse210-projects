@@ -1,0 +1,19 @@
+Class: Journal
+Attributes:
+* _journalName : string
+* _journalEntries : List<entries>
+
+Behaviors:
+* DisplayJournal() : void
+* SaveJournal() : void
+* LoadJournal() : void
+
+Class: Entry
+Attributes:
+* _moodResponse : string
+* _entryResponse : string
+* _dateTime : string
+* _entryPrompt : string
+
+Behaviors:
+* DisplayEntry() : void
