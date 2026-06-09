@@ -23,7 +23,7 @@ public class Assignment
 
     public string GetSummary()
     {
-        return _studentName + "-" + _topic;
+        return _studentName + " - " + _topic;
     }
 
 }
